@@ -1,0 +1,19 @@
+---
+# We'll use Google's style.
+BasedOnStyle: Google
+
+ColumnLimit: 98
+IndentWidth: 4
+ContinuationIndentWidth: 8
+
+SpaceAfterTemplateKeyword: false
+
+SortIncludes: CaseInsensitive
+IncludeCategories:
+  - Regex: '^<.*>'
+    Priority: 1
+  - Regex: '^".*/.*"'
+    Priority: 2
+  - Regex: '.*'
+    Priority: 3
+---
